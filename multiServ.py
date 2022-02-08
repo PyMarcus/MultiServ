@@ -96,7 +96,7 @@ class Client:
 
 
 class PcProcess:
-    """Cria multiprocessos para executar os soquetes de comunicação do servidor"""
+    """Cria multiprocessos no sistema operacional para executar os soquetes de comunicação do servidor"""
 
     @staticmethod
     def run_process(host: str = "", port: int = 7777):
